@@ -1,0 +1,192 @@
+body {
+  display: flex;
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #96aba7;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-two {
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.shelf-container {
+  background-color: #d8dfd3;
+  display: flex;
+  width: 2rem;
+  height: 80vh;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+
+.book-dash {
+  margin: 3.5rem 0 0 1rem;
+}
+.shelf-icon {
+  margin: 0 0 4rem 1rem;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.ico {
+  padding: 2rem;
+}
+
+.upper-nav {
+  background-color: #bacfc7;
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  margin: 2rem 0 2rem 0;
+  width: 90vw;
+  border-radius: 3rem;
+}
+
+.first {
+  flex: 1;
+}
+
+.frame {
+  background-color: #d8dfd3;
+  border-radius: 2rem;
+  width: 20vw;
+  padding: 1.5rem;
+  margin: 2rem 1.5rem 1.5rem;
+}
+
+.first-frame {
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.text-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem 0 2rem;
+  margin: 0;
+}
+
+.text-p {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem 0 2rem;
+  margin: 0.2rem 0 1.5rem 0;
+}
+
+.first-header {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.second-header {
+  margin-top: 0;
+}
+.header {
+  margin-bottom: 1rem;
+}
+
+.first-btn {
+  padding: 0.6rem;
+}
+
+.ie {
+  padding: 0 0.3rem 0 0.3rem;
+}
+
+.btn-1 {
+  border: none;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+}
+
+.large-btn {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #d8dfd3;
+  border: 1px solid black;
+  color: black;
+}
+
+.container-four {
+  background-color: #bacfc7;
+  width: 300px;
+}
+
+.cont-4 {
+  margin-top: 3rem;
+}
+
+.friends-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.special-image {
+  width: 2.5rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-cont {
+  width: 90px;
+  height: 100px;
+  border-radius: 0;
+  padding: 1rem 1rem 0;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.percentage {
+  margin: 2rem 0 2rem 16rem;
+}
+
+.last-button {
+  background-color: #e46430;
+  border: none;
+  border-radius: 1.5rem;
+  width: 500px;
+  padding: 15px;
+  margin-top: 3rem;
+}
