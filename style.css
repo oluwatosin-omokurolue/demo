@@ -1,35 +1,36 @@
 body {
   display: flex;
-
   width: 100%;
   align-items: center;
   justify-content: center;
   background-color: #96aba7;
+  height: 100vh;
 }
 
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .container-two {
-  padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 15px;
+  margin-left: 15px;
+  height: 100%;
+  background-color: #d8dfd3;
 }
 
 .shelf-container {
   background-color: #d8dfd3;
   display: flex;
-  width: 2rem;
-  height: 80vh;
-  padding: 1.5rem;
-  align-items: center;
+  width: 90px;
+  padding: 24px 0;
   justify-content: center;
   border-radius: 1.5rem;
 }
 
 .book-dash {
-  margin: 3.5rem 0 0 1rem;
+  margin: 24px 0px;
 }
 .shelf-icon {
   margin: 0 0 4rem 1rem;
@@ -48,9 +49,10 @@ body {
   display: flex;
   flex: 1;
   padding: 20px;
-  margin: 2rem 0 2rem 0;
   width: 90vw;
-  border-radius: 3rem;
+  border-radius: 20px;
+  max-height: 800px;
+  height: 800px;
 }
 
 .first {
@@ -62,7 +64,9 @@ body {
   border-radius: 2rem;
   width: 20vw;
   padding: 1.5rem;
-  margin: 2rem 1.5rem 1.5rem;
+  height: 500px;
+  position: absolute;
+  box-shadow: 5px 10px 10px #888888;
 }
 
 .first-frame {
@@ -189,4 +193,25 @@ img {
   width: 500px;
   padding: 15px;
   margin-top: 3rem;
+}
+
+.icon-rest {
+  margin-top: 18px;
+}
+
+.container-three {
+  padding: 0px 25px;
+  position: relative;
+}
+
+.behind {
+  height: 164px;
+  right: 233px;
+  transform: rotateZ(5deg);
+}
+
+.behind-2 {
+  height: 220px;
+  right: 221px;
+  transform: rotateZ(10deg);
 }
